@@ -1,0 +1,38 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background: linear-gradient(to right, lightblue, lightgreen);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+
+  flex-direction: column;
+}
+
+.option,
+.computerChoice,
+.winner {
+  margin: 10px;
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+
+.option:hover,
+.computerChoice:hover {
+  background-color: rgb(162, 225, 225);
+}
+
+h1 {
+  font-weight: 900;
+  color: #efefef;
+  font-size: 1.5rem;
+}
+
+.winner:hover {
+  background-color: blue;
+  color: white;
+}
+
+.image {
+  display: none;
+}

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <title>My Website</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1>Rock Paper and Scissor Game</h1>
+    <div class="choices">
+      <button class="option">Rock</button>
+      <button class="option">Paper</button>
+      <button class="option">Scissor</button>
+    </div>
+    <button class="computerChoice">Generate computer Choice</button>
+    <button onclick="winner(userChoice, compChoice)" class="winner">
+      Check the winner!
+    </button>
+    <div class="status">
+      <img class="image" src="./win.jpg" alt="you win image" />
+      <img class="image" src="./lose.png" alt="you lose image" />
+      <img class="image" src="./tie.jpg" alt="tryagain image" />
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
